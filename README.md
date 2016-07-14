@@ -8,4 +8,4 @@ composer require spryker/session
 
 ## Documentation
 
-[Documentation](http://spryker.github.io)
+[Session Documentation](http://spryker.github.io/core/bundles/session)
