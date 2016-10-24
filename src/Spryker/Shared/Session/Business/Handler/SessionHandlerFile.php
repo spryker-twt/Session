@@ -83,7 +83,7 @@ class SessionHandlerFile implements \SessionHandlerInterface
         $key = $this->keyPrefix . $sessionId;
         $sessionFile = $this->savePath . DIRECTORY_SEPARATOR . $key;
         if (!file_exists($sessionFile)) {
-            return null;
+            return '';
         }
 
         $content = file_get_contents($sessionFile);
